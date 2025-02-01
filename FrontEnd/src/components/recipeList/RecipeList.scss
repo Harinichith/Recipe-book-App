@@ -1,0 +1,38 @@
+.recipe-container{
+    cursor: pointer;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.recipe-catalogue-title{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.recipe-catalogue-image{
+    width: 100%;
+    border-radius: 8px;
+}
+.recipe-title{
+    width: 85%;
+}
+.bookmark-icon {
+    width: 24px;  
+    height: 24px; 
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.3s ease;
+    padding: 5px;  
+    
+    &:hover {
+        color: #5457b6;  
+    }
+}
+.bookmarked{
+    color: #5457b6;
+}
